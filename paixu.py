@@ -18,7 +18,7 @@ arr2 = [1,2,8,5,6,9,4]
 #             arr2[j] = key
 #         j -= 1
 # print(arr2)
-for i in range(1,len(arr2)):#进行n趟
+for i in range(1,len(arr2)):#进行n-1趟
 	while i-1 >=0:
 		if arr2[i-1]>arr2[i]:
 			arr2[i],arr2[i-1] = arr2[i-1],arr2[i]
